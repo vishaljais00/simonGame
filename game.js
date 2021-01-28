@@ -91,7 +91,7 @@ function checkAnswer(currentLevel) {
             $("body").removeClass("game-over")
         }, 200);
 
-        $("#level-title").html(" Game is Over , Press Any key to Restart")
+        $("#level-title").html(" Game is Over <br> Your Score is :" + level)
         startOver();
     }
 
